@@ -8,7 +8,7 @@ const Users = () => {
     useEffect(() => {
         const fetchUsers = async () => {
             try {
-                const response = await fetch('http://localhost:3000/users', {
+                const response = await fetch('https://tr2-292d.onrender.com/users', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
